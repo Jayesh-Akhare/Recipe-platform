@@ -1,0 +1,21 @@
+.background {
+  background-image: url("https://source.unsplash.com/1600x900/?food");
+  background-size: cover;
+  background-position: center;
+  height: 50vh; /* Set height */
+  display: flex;
+  align-items: center;  /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  position: relative;
+}
+
+.heading {
+  font-size: 3rem;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Ensure text is centered */
+  position: absolute; /* Keep text in place */
+  top: 50%; /* Move text down */
+  left: 50%; /* Move text to the center */
+  transform: translate(-50%, -50%); /* Perfect centering */
+}
